@@ -47,26 +47,46 @@ This section contains a list of desired and upcoming features for sslite.
 These features will be marked with a '+' symbol. Once the feature has been added, it will be moved to the bottom and the '+' symbol will be replaced by a '#'.
 
 +Portability to Python v2
+
 +Identify when server is not set to prefer its own cipher list
+
 +Identification of HTTP/2.0 and SPDY
+
 +More in-depth validation of certificate (check trust store, CRL and OCSP)
+
 +Ciphers negotiated by Top 10 popular browsers
+
 +Level of support for older browsers
+
 +Checks for certificate key length & signature algorithm
+
 +Checks for key exchange parameter size
+
 +Save a report file after scan completion (.html extension, inline styling)
+
 +Non-invasive mode (rate-limiting connections)
+
 +Accept command-line arguments
 
+
 #Identify OpenSSL version being used
+
 #Save a report file after scan completion (.txt extension)
+
 #Ciphers available in order of server preference
+
 #Estimated time to complete (percentage complete statements)
+
 #Identify protocol version support
+
 #Error handling
+
 #Input validation of hostname
+
 #Checks on HTTP Response headers
+
 #Validation of certificate (currently checks that hostnames match & trust store if available)
+
 #Unique names for reports
 
 #
